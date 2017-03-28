@@ -1,0 +1,101 @@
+*{
+    box-sizing:border-box;
+    
+}
+
+.container{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ul{
+    list-style: none;
+}
+
+/* header */
+.header{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center; /*높이조정*/
+}
+
+.menu{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+li{
+    margin-left:5px; /*리스트간의 간격*/
+}
+
+/*landing*/
+.landing{
+    background-image:url(/img/keyboard.jpg);
+    background-size:cover;
+    background-position: center center;
+    width:100%;
+    height:600px;
+    display:flex;/*위아래 가운데 정렬*/
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items:center;
+    margin-bottom: 15px
+    
+}
+
+.landing_content{
+    color:#fff;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.landing_title{
+    font-size:70px;
+    text-align:center;
+}
+
+.landing_subtitle{
+    font-size:50px;
+    text-align:center;
+}
+
+/*main*/
+.main{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.img_size{
+    width:80%;
+}
+
+.article_size{
+    width:30%;
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#181818;
+}
+
+.footer_content{
+    width:30%;
+    margin-right:auto;
+    margin-left:auto;
+    color:#fff;
+    
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
